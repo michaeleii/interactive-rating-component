@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-react-tailwindcss-oKBSWS348-](https://www.frontendmentor.io/solutions/interactive-rating-component-react-tailwindcss-oKBSWS348-)
 - Live Site URL: [https://michaellei-interactive-rating.netlify.app/](https://michaellei-interactive-rating.netlify.app/)
 
 ## Built with
