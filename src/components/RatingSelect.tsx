@@ -15,7 +15,7 @@ function RatingSelect({
   }
 
   return (
-    <ul className="flex gap-5 items-center justify-center flex-wrap w-full">
+    <ul className="flex gap-2 sm:gap-5 items-center justify-center flex-wrap w-full">
       {Array.from({ length: numOfStars }, (_, i) => (
         <li className="">
           <input
@@ -26,7 +26,7 @@ function RatingSelect({
             checked={rating === i + 1}
           />
           <label
-            className="bg-neutral-darkBlue w-12 h-12 sm:w-16 sm:h-16 text-center transition-colors hover:bg-primary hover:text-white cursor-pointer sm:text-xl p-2 rounded-full flex items-center justify-center peer-checked:bg-neutral-mediumGray peer-checked:text-white"
+            className="bg-neutral-darkBlue w-10 h-10 sm:w-16 sm:h-16 text-center transition-colors hover:bg-primary hover:text-white cursor-pointer sm:text-xl p-2 rounded-full flex items-center justify-center peer-checked:bg-neutral-mediumGray peer-checked:text-white"
             htmlFor={`num${i + 1}`}
             onClick={() => handleClick(i + 1)}
           >
